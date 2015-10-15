@@ -1,8 +1,15 @@
 # PortScanner
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/port_scanner`. To experiment with that code, run `bin/console` for an interactive prompt.
+Welcome to the `Port Scanner` gem! This gem is used to test if a port is open and whether it accepts connections, returning TRUE or FALSE.
 
-TODO: Delete this and the text above, and describe your gem
+In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/port_scanner`. To experiment with that code, run `bin/console` for an interactive prompt.
+
+Sources  
+1. Thor
+  1. http://whatisthor.com/
+  2. http://willschenk.com/making-a-command-line-utility-with-gems-and-thor/
+  3. http://blog.paracode.com/2012/05/17/building-your-tools-with-thor/
+
 
 ## Installation
 
@@ -22,7 +29,27 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Once installed, the gem can be required in other Ruby gems, or ran as a command line program.
+
+```
+require 'port_scanner'
+```
+
+or as a command line program
+
+```
+$> port_scanner help
+```
+
+## Available Commands are:
+
+*help*  
+Displays the help page.   
+
+*scan*  
+This takes two arguments,  
+1. IP Address, ex. 192.168.1.1  
+2. Port Number, ex. 8080  
 
 ## Development
 
