@@ -1,5 +1,7 @@
 # PortScanner
 
+[![Gem Version](https://badge.fury.io/rb/port_scanner.svg)](https://badge.fury.io/rb/port_scanner)
+
 Welcome to the `Port Scanner` gem! This gem is used to test if a port is open and whether it accepts connections, returning TRUE or FALSE.
 
 In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/port_scanner`. To experiment with that code, run `bin/console` for an interactive prompt.
